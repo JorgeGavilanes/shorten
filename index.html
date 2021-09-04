@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+<body>
+  <nav class="nav">
+    <a class="logo">Shortly</a>
+    <ul class="nav__paths">
+      <li class="nav__path"><a class="nav__path">Features</a></li>
+      <li class="nav__path"><a class="nav__path">Pricing</a></li>
+      <li class="nav__path"><a class="nav__path">Resources</a></li>
+    </ul>
+    <ul class="nav__buttons">
+      <li class="nav__button">
+        <a class="button button--Gray">Login</a>
+      </li>
+      <li class="nav__button">
+        <a class="button">Sign Up</a>
+      </li>
+    </ul>
+    <ul class="burger">
+      <li class="burger__part"></li>
+      <li class="burger__part"></li>
+      <li class="burger__part"></li>
+    </ul>
+  </nav>
+
+  <header class="header">
+    <div class="header__texts">
+      <h1 class="header__title">More than just shorter links</h1>
+      <p class="header__description">Build your brand’s recognition and get detailed insights 
+        on how your links are performing.</p>
+      <a class="button">Get Started</a>
+      </div>
+    <img class="header__image" src="images/illustration-working.svg" alt="">
+  </header>
+
+  <section class="urlShorten">
+    <input class="urlShorten__input" type="text" placeholder="Shorten a link here...">
+    <button class="button button--Link">Shorten It!</button>
+    <p class="urlShorten__error">Please add a link</p>
+  </section>
+
+  <section class="statistics">
+
+    <aside class="links">
+      <!-- <span class="links__body">
+        <h3 class="links__url">https://Frontendmentor.io</h3>
+        <p class="links__divisor"></p>
+        <h3 class="links__generated">https://reLink/k4lKyk</h3>
+        <button class="links__copy">Copy</button>
+      </span>
+      <span class="links__body">
+        <h3 class="links__url">https://Frontendmentor.io</h3>
+        <h3 class="links__generated">https://reLink/k4lKyk</h3>
+        <button class="links__copy links__copy--copied">Copied!</button>
+      </span> -->
+    </aside>
+
+    <div class="statistics__texts">
+      <h2 class="statistics__title">Advanced Statistics</h2>
+      <p class="statistics__description">Track how your links are performing across the web with our 
+        advanced statistics dashboard.</p>
+    </div>
+
+    <div class="statistics__articles">
+      <article class="article">
+        <div class="article__img">
+          <img src="images/icon-brand-recognition.svg" alt="" class="article__image">
+        </div>
+        <h3 class="article__title">Brand Recognition</h3>
+        <p class="article__description">Boost your brand recognition with each click. Generic links don’t 
+          mean a thing. Branded links help instil confidence in your content.</p>
+      </article>
+      <article class="article">
+        <div class="article__img">
+          <img src="images/icon-detailed-records.svg" alt="" class="article__image">
+        </div>
+        <h3 class="article__title">Detailed Records</h3>
+        <p class="article__description">Gain insights into who is clicking your links. Knowing when and where 
+          people engage with your content helps inform better decisions.</p>
+      </article>
+      <article class="article">
+        <div class="article__img">
+          <img src="images/icon-fully-customizable.svg" alt="" class="article__image">
+        </div>
+        <h3 class="article__title">Fully Customizable</h3>
+        <p class="article__description">Improve brand awareness and content discoverability through customizable 
+          links, supercharging audience engagement.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="boost">
+    <h2 class="boost__title">Boost your links today</h2>
+    <a class="button">Get Started</a>
+  </section>
+
+  <footer class="footer">
+    <a class="logo logo--White">Shortly</a>
+    <div class="footer__links">
+      <ul class="footer__paths">
+        <li class="footer__titlePath">
+          Features
+          <ul class="footer__listPath">
+            <li class="footer__path"><a class="footer__path">Link Shortening</a></li>
+            <li class="footer__path"><a class="footer__path">Branded Links</a></li>
+            <li class="footer__path"><a class="footer__path">Analytics</a></li>
+          </ul>
+        </li>
+        <li class="footer__titlePath">
+          Resources
+          <ul class="footer__listPath">
+            <li class="footer__path"><a class="footer__path">Blog</a></li>
+            <li class="footer__path"><a class="footer__path">Developers</a></li>
+            <li class="footer__path"><a class="footer__path">Support</a></li>
+          </ul>
+        </li>
+        <li class="footer__titlePath">
+          Company
+          <ul class="footer__listPath">
+            <li class="footer__path"><a class="footer__path">About</a></li>
+            <li class="footer__path"><a class="footer__path">Our Team</a></li>
+            <li class="footer__path"><a class="footer__path">Careers</a></li>
+            <li class="footer__path"><a class="footer__path">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="footer__socialMedias">
+        <li class="footer__socialMedia">
+          <a class="footer__socialMedia">
+            <img src="images/icon-facebook.svg" alt="" class="socialMedia__icon">
+          </a>
+        </li>
+        <li class="footer__socialMedia">
+          <a class="footer__socialMedia">
+            <img src="images/icon-twitter.svg" alt="" class="socialMedia__icon">
+          </a>
+        </li>
+        <li class="footer__socialMedia">
+          <a class="footer__socialMedia">
+            <img src="images/icon-pinterest.svg" alt="" class="socialMedia__icon">
+          </a>
+        </li>
+        <li class="footer__socialMedia">
+          <a class="footer__socialMedia">
+            <img src="images/icon-instagram.svg" alt="" class="socialMedia__icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="js/app.js" type="module"></script>
+  <script src="js/burger.js"></script>
+</body>
+</html>
